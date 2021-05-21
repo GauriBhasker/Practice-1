@@ -1,16 +1,17 @@
 // Simple code in C language
 #include<stdio.h>                 
 #include<conio.h>                 
-void main()                       //main function is started
-{               
+void main()                               //main function is started
+{          
+  clrscr();                               //for clearing the screen
   printf("Hello everyone.");              //print Hello everyone
   int b=77;                               //an integer b is declared and initialized
-  int a;                                   //an integer is declared
-  printf("\n Value of b is = %i",b);        //value of b is printed
-  printf("\n Enter the value of a");        //asking to user for value
-  scanf("%i",&a);                          //value is stored at address of a
+  int a;                                  //an integer is declared
+  printf("\n Value of b is = %i",b);      //value of b is printed
+  printf("\n Enter the value of a");      //asking to user for value
+  scanf("%i",&a);                         //value is stored at address of a
   printf("Value of a is = %i",a);         //value of a is printed
-  if(a>0)                                  //condition is applied on variable a
+  if(a>0)                                 //condition is applied on variable a
   {
     printf("\n a is positive.");
   }
@@ -22,5 +23,5 @@ void main()                       //main function is started
   {
     printf("a is zero.");
   }
-  getch();                     //used for holding the screen
+  getch();                                 //used for holding the screen
 }  
